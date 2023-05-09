@@ -16,7 +16,7 @@ This is a solution to the [Interactive rating component](https://www.frontendmen
 ### Links
 
 - Solution URL: [https://github.com/Creatordante/interactive-rating-component-main](https://github.com/Creatordante/interactive-rating-component-main)
-- Live Site URL: []()
+- Live Site URL: [https://interactive-rating-component-creatord.netlify.app/](https://interactive-rating-component-creatord.netlify.app/)
 
 ### Built with
 
