@@ -1,0 +1,21 @@
+@use "base/mixins" as m;
+@use "base/variables" as v;
+
+.attribution {
+  display: none;
+  @include m.tablet {
+    height: 2rem;
+    display: unset;
+    font-size: 11px;
+    text-align: center;
+  }
+}
+
+.attribution a {
+  @include m.tablet {
+    color: v.$orange;
+    &:active {
+      color: v.$light_grey;
+    }
+  }
+}
