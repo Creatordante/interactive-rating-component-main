@@ -1,7 +1,16 @@
+@use "variables" as v;
+
 .hidden {
   display: none;
   visibility: hidden;
   width: 0;
   height: 0;
   overflow: hidden;
+}
+
+.btn-orange {
+  background-color: v.$orange !important;
+  p {
+    color: v.$white !important;
+  }
 }

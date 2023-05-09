@@ -17,7 +17,6 @@ body {
   background-color: v.$very_dark_blue;
   color: v.$white;
   // Center card component
-  position: relative;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -26,6 +25,10 @@ body {
   align-items: center;
   gap: 1rem;
   overflow: hidden;
+}
+
+main {
+  position: relative;
 }
 
 p {

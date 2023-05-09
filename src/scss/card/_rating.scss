@@ -71,12 +71,15 @@
 
   &:hover {
     background-color: v.$light_grey;
-    color: v.$white;
     cursor: pointer;
   }
-  &:active {
-    background-color: v.$orange;
+
+  &:hover p {
     color: v.$white;
+  }
+
+  p {
+    pointer-events: none;
   }
 }
 

@@ -322,7 +322,6 @@ body {
   font-family: "Overpass", sans-serif;
   background-color: hsl(216, 12%, 8%);
   color: hsl(0, 0%, 100%);
-  position: relative;
   width: 100vw;
   height: 100vh;
   display: flex;
@@ -331,6 +330,10 @@ body {
   align-items: center;
   gap: 1rem;
   overflow: hidden;
+}
+
+main {
+  position: relative;
 }
 
 p {
@@ -379,6 +382,13 @@ div[class$=-container] {
   width: 0;
   height: 0;
   overflow: hidden;
+}
+
+.btn-orange {
+  background-color: hsl(25, 97%, 53%) !important;
+}
+.btn-orange p {
+  color: hsl(0, 0%, 100%) !important;
 }
 
 .attribution {
@@ -475,12 +485,13 @@ div[class$=-container] {
 }
 .rating-number:hover {
   background-color: hsl(217, 12%, 63%);
-  color: hsl(0, 0%, 100%);
   cursor: pointer;
 }
-.rating-number:active {
-  background-color: hsl(25, 97%, 53%);
+.rating-number:hover p {
   color: hsl(0, 0%, 100%);
+}
+.rating-number p {
+  pointer-events: none;
 }
 
 .btn {
